@@ -158,13 +158,14 @@ runcmd:
     echo "$(date): All downloads completed. Starting extractions..."
 
     # Extract files sequentially to avoid memory issues and clean up immediately
+    # Note: Using --strip-components=5 to remove nested 'projects/ogma3/docker/volumes/' prefix
     echo "$(date): Extracting OSM tile server data..."
-    tar -C /var/lib/docker/volumes -xf /root/osm_tile_server.tar
+    tar -C /var/lib/docker/volumes --strip-components=5 -xf /root/osm_tile_server.tar
     rm -f /root/osm_tile_server.tar  # Clean up immediately to save space
     echo "$(date): ✅ OSM tile server data extracted and cleaned up"
 
     echo "$(date): Extracting Nominatim data..."
-    tar -C /var/lib/docker/volumes -xf /root/nominatim_volumes.tar
+    tar -C /var/lib/docker/volumes --strip-components=5 -xf /root/nominatim_volumes.tar
     rm -f /root/nominatim_volumes.tar  # Clean up immediately to save space
     echo "$(date): ✅ Nominatim data extracted and cleaned up"
 
@@ -218,19 +219,19 @@ runcmd:
 
     # Start OSRM car routing
     docker run --name osrm-car --restart unless-stopped \
-        --memory=1g --memory-swap=2g \
+        --memory=4g --memory-swap=8g \
         --volume=/opt/osrm/car:/data -p 5000:5000 -d \
         ghcr.io/project-osrm/osrm-backend:v5.27.1 osrm-routed --algorithm mld /data/us-northeast-latest.osrm
 
     # Start OSRM bike routing
     docker run --name osrm-bike --restart unless-stopped \
-        --memory=1g --memory-swap=2g \
+        --memory=4g --memory-swap=8g \
         --volume=/opt/osrm/bike:/data -p 5001:5000 -d \
         ghcr.io/project-osrm/osrm-backend:v5.27.1 osrm-routed --algorithm mld /data/us-northeast-latest.osrm
 
     # Start OSRM foot routing
     docker run --name osrm-foot --restart unless-stopped \
-        --memory=1g --memory-swap=2g \
+        --memory=4g --memory-swap=8g \
         --volume=/opt/osrm/foot:/data -p 5002:5000 -d \
         ghcr.io/project-osrm/osrm-backend:v5.27.1 osrm-routed --algorithm mld /data/us-northeast-latest.osrm
 
