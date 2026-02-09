@@ -1,0 +1,245 @@
+Total unique templates: 241
+Total entries: 812
+================================================================================
+
+  7x  Get the {{attribute}} of the {{status}} order
+  7x  Find the page of {{description}} on the map.
+  6x  List out reviewers, if exist, who mention about {{description}}
+  6x  Fork {{repo}}.
+  6x  {{action}} the price of this product by {{amount}}
+  6x  Create a repo named {{name}} with {{topics}} in a README file
+  6x  Like all submissions created by {{user}} in subreddit {{subreddit}}
+  6x  DisLike all submissions created by {{user}} in subreddit {{subreddit}}
+  6x  Delete all {{review_type}}
+  6x  {{action}} the price of {{config}} by {{amount}}
+  5x  Tell me the the number of reviews that our store received by far that mention term "{{term}}"
+  5x  Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the {{forum}} forum.
+  5x  Check if the {{place}} in pittsburgh can be reached in one hour by car from {{location}}
+  5x  Today is 6/12/2023. Tell me how many fulfilled orders I have {{period}}, and the total amount of money I spent.
+  5x  How long does it take to walk from {{start}} to {{end}}?
+  5x  Tell me the closest {{place1}}(s) to {{place2}}
+  5x  From my stay at {{hotel}}, what's the estimated driving time to reach {{place}}?
+  5x  Which US states border {{state}}?
+  5x  Display the list of issues in the {{repo}} repository that have labels related to {{label}}
+  5x  Presents the monthly count of successful orders {{period}} in MM:COUNT format
+  5x  Tell me the reasons why customers like {{product}}
+  5x  How many commits did {{user}} make to {{repo}} on {{date}}?
+  5x  How much I spent on {{category}} shopping during {{time}}
+  5x  What is the {{option}} configuration of the {{product}} I bought {{time}}
+  5x  What is the minimum travel time by car from {{location1}} to {{location2}}?
+  5x  I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all {{num}} cards
+  5x  What are the main criticisms of this product? Please extract the relevant sentences.
+  5x  Tell me the full names of the repositories where I made contributions and they got {{description}} stars?
+  5x  Open my latest updated issue that has keyword "{{keyword}}" in its title to check if it is closed
+  5x  Open my latest created issue that has {{keyword}} in its title to check if it is closed
+  5x  Give me the {{Attribute}} of the products that have {{N}} units left
+  5x  Tell me the total cost of my latest {{status}} order?
+  5x  Find the customer name and email with phone number {{PhoneNum}}
+  5x  What are the key aspects that the customers don't like about {{product}}
+  5x  What is the price range for products from {{brand}}?
+  5x  Get the order number of my most recent {{status}} order 
+  5x  I am doing a market survey for one stop market, show me the most expensive product from {{product_category}} category
+  5x  Show me the {{information}} of the customer who is the most unhappy with {{product}}
+  5x  Tell me the coordinates of {{location}} in DD format
+  5x  I want to browse the products in the {{category}} category
+  5x  Show me products under ${{price}} in "{{product_category}}" category
+  5x  Search for "{{keyword}}"
+  5x  Tell me the {{attribute}} of the customer who has the most cancellations in the history
+  5x  Show me the command to clone {{repo}} with SSH.
+  5x  Show the most recent {{status}} order
+  5x  How many commits did {{user}} make {{period}}?
+  5x  Tell me who has made the most contributions, in terms of number of commits, to the {{repo}} project
+  5x  List the {{attribute}} of the top 3 contributors to {{repo}} repo, ranked by the number of commits?
+  5x  Show me the "{{product}}" listings by {{sorting_order}}.
+  5x  Tell me when I last ordered my {{description}}?
+  5x  List all opened issues {{description}}
+  5x  How many reviews our shop received {{time}}?
+  5x  List products from {{product_category}} category by {{order}} price
+  5x  Show me the {{info}} for order number {{order_number}}.
+  5x  Measure distance between {{location/address_1}} and {{location/address_2}} by walking
+  5x  Pull up the description page of {{location}} on Map
+  5x  Find the {{space}} around {{location}}
+  5x  Post "{{content}}" for the merge request related to {{mr}} in {{repo}} project
+  5x  Change my reddit bio to "{{content}}"
+  5x  Upvote the newest post in {{subreddit}} subreddit
+  5x  Set my gitlab status as {{status}}.
+  5x  Add the product with the lowest per unit price from my open tabs to the shopping cart
+  5x  I previously ordered some {{product}} {{time}} and later cancelled. Can you reorder it for me?
+  5x  Update the project site's title to "{{title}}"
+  5x  set the homepage URL on my GitLab profile to {{url}}
+  5x  Disable {{product}} from the site, they are facing some quality issues.
+  5x  Add {{product}} to my wish list
+  5x  Cancel order {{id}}
+  5x  Set up a new, empty repository with the name {{project_name}}?
+  5x  {{name}} wants to check my dotfile configurations. Please invite him to the repo as a guest.
+  5x  Change the page title of "{{old-heading}}" page on my site to "{{heading}}".
+  5x  Notify {{name}} in their most recent pending order with message "{{message}}"
+  5x  Update order #{{order}} with the {{service}} tracking number {{tracking}}
+  5x  Make all {{product}} as out of stock
+  5x  Buy the highest rated product from the {{product_category}} category within a budget {{dollar_value}}.
+  5x  Add a {{product}} to my wish list.
+  5x  Add this product to my wishlist
+  5x  Star the top {{number}} most stared repos in Gitlab
+  5x  Draft a refund message via their "contact us" form for the {{product}} I bought {{time}}. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don't submit yet
+  5x  Follow {{account_list}} on Gitlab
+  5x  Modify the address of order #{{order_id}} to {{address}}
+  5x  create a repository named {{name}} that includes a README file with the links to the most active {{num}} DIY ideas on DIY subreddit?
+  5x  I recently moved, my address is {{address}}, update my information on OneStopShopping accordingly
+  5x  Create a new forum named {{name}}, with a description of {{description}}, and include {{sidebar_list}} in the sidebar?
+  5x  Rate my recent purchase of {{product}} with {{num_star}} stars, using my nickname {{nickname}}?
+  5x  Create a milestone for the upcoming {{event}} starting on {{start_date}} and ending on {{end_date}}
+  5x  Open the thread of a trending post on the forum "{{subreddit}}" and subscribe.
+  5x  Post my question, "{{question}}", in a subreddit where I'm likely to get an answer
+  5x  Find a subreddit focused on topics related to {{topic}}, and post my question, "{{question}}" there
+  5x  Post a review of my recent reading "{{book}}" in the r/books with my comment "{{content}}".
+  5x  Re-post the image of {{content}} in this page to {{subreddit}} subreddit and note "from /f/pics"
+  5x  Ask for advice about {{issue}} in a subreddit for relations
+  5x  Create a discussion post about "{{topic}}" in a relevant subreddit and ask users for their opinions with the simple prompt, "your opinion"
+  5x  Ask for product recommendations for {{category}} within a budget of {{price}} in {{subreddit}}
+  5x  Post in the most appropriate subreddit and ask for recommendations for {{category}} products within a budget of {{price}}
+  5x  Post a notice on a virtual meetup for {{interest}} enthusiasts on {{date}} in the {{subreddit}} subreddit
+  5x  Fill the "contact us" form in the site for a refund on the {{product}} I bought, stating that it broke after just three days of use. Also, ensure to include the order number #{{order_id}} and the product SKU. Don't submit yet, I will check.
+  5x  Create an issue in {{repo}} repo with title "{{issue}}". Assign the issue to {{account}}. Set due date to be {{due}}
+  5x  Open an issue to {{issue}} in {{repo}}.
+  5x  Gather the titles of {{product}} reviews with {{rating}} rating from OneStopShop, and post them in the games subreddit under the title "real user feedback on {{product}}"
+  5x  Lookup orders that are {{status}}
+  5x  Promote {{repo}} to subreddit {{subreddit}} with the description from the repo itself.
+  5x  Draft an email to the shop owner via their contact us function for a coupon as {{reason}}
+  5x  Add a simple product named {{product}} with {{stock}} in stock, available in size {{size}} and color {{color}}, priced at ${{price}}
+  5x  Draft a new marketing price rule for {{topic}} that offers {{rule}} for all customers
+  5x  Today is 3/15/2023, generate a {{report}} {{time_span}}
+  5x  Thumbs down the top {{k}} post ever in {{subreddit}}.
+  5x  Edit my post on {{post}} by adding a line to the body that says "{{content}}"
+  5x  Show me the way from {{location}} to the home stadium of {{sport_team}} {{time}}
+  5x  Start a private project {{project_name}} with {{template}} template and add {{account_list}} as members
+  5x  Create a private {{template}} repository called "{{project_name}}" using the right template to speed up development.
+  5x  Find the walkway to the closest {{store}} from {{location}}.
+  5x  Tell me the {{attribute}} of the contributor who has the most commits to branch {{branch_name}}
+  5x  Change the delivery address for my most recent order to {{address}}.
+  5x  create a new group "{{name}}" with members {{members}}
+  4x  Tell me the full address of all {{airport_type}} that are within a driving distance of {{radius}} to {{start}}
+  4x  Compare the time for walking and driving route from {{start}} to {{end}}
+  4x  I will arrive {{place}} soon. Provide the name of a {{target1}} in the vicinity, if available. Then, tell me the {{information}} to {{target2}} from the hotel.
+  4x  Among the top {{number}} post in "{{subreddit}}" forum, {{description}}
+  4x  What is the zip code of {{place}}?
+  4x  What is the duration required to first walk from {{place_A}} to {{place_B}}, and then drive to {{place_C}}?
+  4x  Where is the nearest {{places}} to {{start}}, and what is the walking distance to it?
+  4x  What's the total number of items sold in the most recent {{k}} orders?
+  4x  What is the estimated driving time between {{city1}} and {{city2}}?
+  4x  Get the total payment amount of the last {{N}} {{status}} orders
+  4x  What is the {{information}} of {{location}}
+  4x  How much I spend {{time}} on shopping at One Stop Market?
+  4x  Create a folder named {{directory}} in {{gitlab_repo}} repo. Within it, create a file named urls.txt that contains the URLs of the 5 most recent posts from the {{subreddit}}?
+  4x  Invite {{collaborator_account_list}} as collaborator to {{repo}} repo
+  4x  Submit a merge request for {{source_branch}} branch to be merged into {{target_branch}} branch, assign {{reviewer}} as the reviewer
+  4x  Create a {{type}} report from {{start_date}} to {{end_date}}
+  3x  List the top {{n}} search terms in my store
+  3x  Given the following locations, {{place_list}}, what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.
+  3x  What is the total count of {{status}} reviews amongst all the reviews?
+  3x  Show me the customers who have expressed dissatisfaction with {{product}}?
+  3x  What is the price range of {{product}} in the One Stop Market?
+  3x  Show me the walking distance from nearby hotels to {{location}} that take at most {{n}} minutes?
+  3x  I am at CMU Pittsburgh, how long it takes to drive to the nearest {{location}}
+  3x  Show the least expensive {{product}} with a minimum storage capacity of {{min_storage}}.
+  3x  How much refund I should expect from my order canlled in {{time}}, including shipping fee
+  3x  Make the LICENSE of {{repo}} to MIT license.
+  3x  Go to the merge request on {{topic}} I have to review, find if the author of the merge request responded at the end, and reply "Thank you" if he did. Otherwise remind him with a simple @.
+  3x  Assign the issue regarding {{issue}} in {{repo}} to {{account}}.
+  3x  Update the description of {{product}} to highlight the real user positive reviews by quoting the comments
+  3x  Add the following users to repo {{repo}} as {{role}}: {{user_list}}
+  3x  Reply to {{position_description}} with my comment "{{content_description}}"
+  3x  Find a GitLab repository related to {{topic}} and make a Reddit post linking to it in a relevant subreddit
+  2x  What is the top-{{n}} best-selling product type in {{period}}
+  2x  What are the top-{{n}} best-selling product in {{year}}
+  2x  Check out the most recent open issues
+  2x  Which customer has completed the {{quantifier}} number of orders in the entire history?
+  2x  Telll me the grand total of invoice {{id}}.
+  2x  How many commits did {{user}} make on {{date}}?
+  2x  Where is the nearest {{location}} from {{location2}} {{condition}}
+  2x  Who else have access to my repo {{repo}}, show me their usernames
+  2x  Preview the {{name}} theme for my shop
+  2x  Who gave {{stars}} for phone cases from EYZUTAK
+  2x  Reply to {{position_description}} in this post with "{{content_description}}"
+  2x  Update the product description of {{product}} to highlight the real user positive reviews by quoting the comments
+  2x  Buy the best rating product from "{{category}}" category with at least 5 reviews and the product is least expensive
+  2x  Add a new {{option}} {{value}} to {{base_setting}} {{product}}
+  2x  Add the following users to my {{repo}} as {{role}}: {{user_list}}
+  2x  Open a new issue to discuss the implementation of {{feature}}
+  2x  Show me the path and travel time from {{city1}} to {{city2}}.
+  2x  Show me the route and driving time from {{city1}} to {{city2}}
+  2x  Get directions from {{location/address_1}} to {{location/address_2}} using {{transportation}} options.
+  1x  What is the top-{{n}} best-selling product in {{year}}
+  1x  What is the top-{{n}} best-selling brand in {{period}}
+  1x  What are the top-{{n}} best-selling product in {{period}}
+  1x  Compare the difference in time for walking and driving route from {{start}} to {{end}}
+  1x  Check out my todos
+  1x  Which customer(s) has completed the {{quantifier}} number of orders in the entire history?
+  1x  Which customer has placed {{number}} orders in the entire history?
+  1x  Tell me the status of my latest order and when will it arrive
+  1x  Tell me the distance to drive from Carnegie Mellon University to the top computer science school in massachusetts
+  1x  Show me the name of the customers who have expressed dissatisfaction with {{product}}
+  1x  Show me the name of the customers who have expressed dissatisfaction with {{product}}?
+  1x  What is the date when I made my first purchase on this site?
+  1x  I have jaw bruxism problem, show me something that could alleviate the problem.
+  1x  What brands appear most frequently among the top search terms?
+  1x  Checkout merge requests assigned to me
+  1x  Show all customers
+  1x  Compare the payment difference of the last {{N}} {{status_1}} orders and {{status_2}} orders
+  1x  How many commits did {{user}} make on {{date}} in total?
+  1x  I am at CMU Pittsburgh, how long it takes to the nearest {{location}} with different transportation methods?
+  1x  What do customers say about {{product_type}} from {{manufature}}
+  1x  Who is the {{information}} of {{location}}
+  1x  See all public projects
+  1x  Get me my RSS feed token
+  1x  What's the closest national park to {{city}}? How far is it to drive there?
+  1x  What's the closest national park to {{city}}?
+  1x  What's the closest national park to {{city}}? How long it takes to drive there?
+  1x  What's the closest national park to {{city}}? How long does it take to bike there?
+  1x  Provide me with the complete names of Bluetooth headphones from Sony, and also share the price range for the available models
+  1x  Provide me with the full names of chargers from Anker, and also share the price range for the available models
+  1x  Please provide me with the complete product names of Oral B brush heads designed for children, along with their corresponding price range per brush
+  1x  List the full product names of slide slippers from Nike and tell me the price range of the available products
+  1x  Look up the most recent models of XBox controllers released between 2020-2021?
+  1x  How much time does it take from Pittsburgh to Philadelphia by car?
+  1x  Which number to call for the customer service?
+  1x  How much refund I should expect from my order canlled in {{time}} if I cannot get the shipping fee refunded?
+  1x  How much refund I should expect from my order canlled in {{time}}? I only kept the AC-DC Adapter and the shop told me that I cannot get the shipping fee back
+  1x  How much did I spend on shopping at One Stop Market {{time}}? They gave me a 20% discount on the total amount for orders exceeding $200 in cash
+  1x  Show the route from SCS CMU in Pittsburgh to the location where the Declaration of Independence and Constitution were signed
+  1x  Checkout merge requests requiring my review
+  1x  find discounted items.
+  1x  Summarize customer reviews for {{product}}.
+  1x  I am arriving at Carnegie Mellon University. Find the nearby US Citizenship and Immigration Services and the walking distance to the nearest Social Security Administration from US Citizenship and Immigration Services
+  1x  I am arriving at Pittsburgh Airport. Show me the name of a Hyatt hotel if there is any nearby. Tell me the names of supermarkets that are within 15mins driving from the hotel
+  1x  List the customer names who complain about the quality of EYZUTAK phone cases
+  1x  List the customer names who thinks EYZUTAK phone cases are of good looking
+  1x  What is the rating of {{product}}
+  1x  Make the LICENSE of {{repo}} to Apache License
+  1x  Make the LICENSE of {{repo}} to one that mandates all copies and derivative works to be under the same license
+  1x  Mark all {{brand}} shirts on sale
+  1x  Invite {{collaborator_account_list}} as collaborator to {{repo}}
+  1x  Subscribe to the newsletter of OneStopMarket
+  1x  Add a new {{option}} option {{value}} to the {{base_setting}} of {{product}}
+  1x  Add a new {{option}} {{value}} to {{base_setting}} of {{product}}
+  1x  Add new {{option}} {{value}} to {{base_setting}} of {{product}}
+  1x  Post in {{subreddit}} subreddit about what could machine learning help the correpong field.
+  1x  Post in {{subreddit}} subreddit about what could midjourney help the correpong field.
+  1x  Post in {{subreddit}} forum about what could open-source LLMs help the correpong field.
+  1x  Post in {{subreddit}} forum about what could large language models help the correpong field.
+  1x  Post in {{subreddit}} subreddit about what could diffusion model help the correpong field.
+  1x  Submit a request to merge {{source_branch}} branch into {{target_branch}} branch, assign {{reviewer}} as the reviewer
+  1x  Create an {{type}} report from {{start_date}} to {{end_date}}
+  1x  Create a new {{scope}} project "planner" and add {{account_list}} as members
+  1x  Create a new {{scope}} project "web_arena" and add {{account_list}} as members
+  1x  Create a new {{scope}} project "AutoAGI" and add {{account_list}} as members
+  1x  Create a new {{scope}} project "awesome-llms" and add {{account_list}} as members
+  1x  Create a new {{scope}} project "llm_bulk_inference" and add {{account_list}} as members
+  1x  {{quantity}} {{product}} arrived, update the stock
+  1x  We've received {{quantity}} {{product}}, please update the inventory.
+  1x  We've received {{quantity}}, update the inventory.
+  1x  Approve the positive reviews to display in our store.
+  1x  Create an issue {{issue}} in {{repo}}.
+  1x  Make a folder named {{directory}} on the {{gitlab_repo}} repo and include a file called urls.txt that consists of the links to the 5 most recent posts from {{subreddit}}.
+  1x  Assign the issue regarding {{issue}} to {{account}}.
+  1x  Submit a merge request for {{source_branch}} to be merged into {{target_branch}} branch, assign {{reviewer}} as the reviewer
+  1x  Assign the issue regarding {{issue}} in {{repo}} repo to {{account}}.

@@ -1,0 +1,1032 @@
+{
+  "metadata": {
+    "source_file": "/mnt/2_1/webarena_my/config_files/test.raw.json",
+    "total_templates": 241,
+    "total_tasks": 812,
+    "classification_method": "ground-truth (from sites field)",
+    "sites": [
+      "gitlab",
+      "map",
+      "reddit",
+      "shopping",
+      "shopping_admin",
+      "wikipedia"
+    ]
+  },
+  "site_statistics": {
+    "gitlab": {
+      "unique_templates": 60,
+      "total_tasks": 196,
+      "percentage_of_templates": 24.9,
+      "percentage_of_tasks": 24.1
+    },
+    "shopping": {
+      "unique_templates": 56,
+      "total_tasks": 192,
+      "percentage_of_templates": 23.2,
+      "percentage_of_tasks": 23.6
+    },
+    "shopping_admin": {
+      "unique_templates": 57,
+      "total_tasks": 182,
+      "percentage_of_templates": 23.7,
+      "percentage_of_tasks": 22.4
+    },
+    "reddit": {
+      "unique_templates": 28,
+      "total_tasks": 114,
+      "percentage_of_templates": 11.6,
+      "percentage_of_tasks": 14.0
+    },
+    "map": {
+      "unique_templates": 34,
+      "total_tasks": 112,
+      "percentage_of_templates": 14.1,
+      "percentage_of_tasks": 13.8
+    },
+    "wikipedia": {
+      "unique_templates": 6,
+      "total_tasks": 16,
+      "percentage_of_templates": 2.5,
+      "percentage_of_tasks": 2.0
+    }
+  },
+  "templates_by_site": {
+    "shopping_admin": [
+      {
+        "template": "Get the {{attribute}} of the {{status}} order",
+        "count": 7
+      },
+      {
+        "template": "{{action}} the price of this product by {{amount}}",
+        "count": 6
+      },
+      {
+        "template": "Delete all {{review_type}}",
+        "count": 6
+      },
+      {
+        "template": "{{action}} the price of {{config}} by {{amount}}",
+        "count": 6
+      },
+      {
+        "template": "Tell me the the number of reviews that our store received by far that mention term \"{{term}}\"",
+        "count": 5
+      },
+      {
+        "template": "Presents the monthly count of successful orders {{period}} in MM:COUNT format",
+        "count": 5
+      },
+      {
+        "template": "Tell me the reasons why customers like {{product}}",
+        "count": 5
+      },
+      {
+        "template": "Give me the {{Attribute}} of the products that have {{N}} units left",
+        "count": 5
+      },
+      {
+        "template": "Find the customer name and email with phone number {{PhoneNum}}",
+        "count": 5
+      },
+      {
+        "template": "What are the key aspects that the customers don't like about {{product}}",
+        "count": 5
+      },
+      {
+        "template": "Show me the {{information}} of the customer who is the most unhappy with {{product}}",
+        "count": 5
+      },
+      {
+        "template": "Tell me the {{attribute}} of the customer who has the most cancellations in the history",
+        "count": 5
+      },
+      {
+        "template": "How many reviews our shop received {{time}}?",
+        "count": 5
+      },
+      {
+        "template": "Disable {{product}} from the site, they are facing some quality issues.",
+        "count": 5
+      },
+      {
+        "template": "Cancel order {{id}}",
+        "count": 5
+      },
+      {
+        "template": "Change the page title of \"{{old-heading}}\" page on my site to \"{{heading}}\".",
+        "count": 5
+      },
+      {
+        "template": "Notify {{name}} in their most recent pending order with message \"{{message}}\"",
+        "count": 5
+      },
+      {
+        "template": "Update order #{{order}} with the {{service}} tracking number {{tracking}}",
+        "count": 5
+      },
+      {
+        "template": "Make all {{product}} as out of stock",
+        "count": 5
+      },
+      {
+        "template": "Modify the address of order #{{order_id}} to {{address}}",
+        "count": 5
+      },
+      {
+        "template": "Lookup orders that are {{status}}",
+        "count": 5
+      },
+      {
+        "template": "Add a simple product named {{product}} with {{stock}} in stock, available in size {{size}} and color {{color}}, priced at ${{price}}",
+        "count": 5
+      },
+      {
+        "template": "Draft a new marketing price rule for {{topic}} that offers {{rule}} for all customers",
+        "count": 5
+      },
+      {
+        "template": "Today is 3/15/2023, generate a {{report}} {{time_span}}",
+        "count": 5
+      },
+      {
+        "template": "What's the total number of items sold in the most recent {{k}} orders?",
+        "count": 4
+      },
+      {
+        "template": "Get the total payment amount of the last {{N}} {{status}} orders",
+        "count": 4
+      },
+      {
+        "template": "Create a {{type}} report from {{start_date}} to {{end_date}}",
+        "count": 4
+      },
+      {
+        "template": "List the top {{n}} search terms in my store",
+        "count": 3
+      },
+      {
+        "template": "What is the total count of {{status}} reviews amongst all the reviews?",
+        "count": 3
+      },
+      {
+        "template": "Show me the customers who have expressed dissatisfaction with {{product}}?",
+        "count": 3
+      },
+      {
+        "template": "Update the description of {{product}} to highlight the real user positive reviews by quoting the comments",
+        "count": 3
+      },
+      {
+        "template": "What is the top-{{n}} best-selling product type in {{period}}",
+        "count": 2
+      },
+      {
+        "template": "What are the top-{{n}} best-selling product in {{year}}",
+        "count": 2
+      },
+      {
+        "template": "Which customer has completed the {{quantifier}} number of orders in the entire history?",
+        "count": 2
+      },
+      {
+        "template": "Telll me the grand total of invoice {{id}}.",
+        "count": 2
+      },
+      {
+        "template": "Preview the {{name}} theme for my shop",
+        "count": 2
+      },
+      {
+        "template": "Update the product description of {{product}} to highlight the real user positive reviews by quoting the comments",
+        "count": 2
+      },
+      {
+        "template": "Add a new {{option}} {{value}} to {{base_setting}} {{product}}",
+        "count": 2
+      },
+      {
+        "template": "What is the top-{{n}} best-selling product in {{year}}",
+        "count": 1
+      },
+      {
+        "template": "What is the top-{{n}} best-selling brand in {{period}}",
+        "count": 1
+      },
+      {
+        "template": "What are the top-{{n}} best-selling product in {{period}}",
+        "count": 1
+      },
+      {
+        "template": "Which customer(s) has completed the {{quantifier}} number of orders in the entire history?",
+        "count": 1
+      },
+      {
+        "template": "Which customer has placed {{number}} orders in the entire history?",
+        "count": 1
+      },
+      {
+        "template": "Show me the name of the customers who have expressed dissatisfaction with {{product}}",
+        "count": 1
+      },
+      {
+        "template": "Show me the name of the customers who have expressed dissatisfaction with {{product}}?",
+        "count": 1
+      },
+      {
+        "template": "What brands appear most frequently among the top search terms?",
+        "count": 1
+      },
+      {
+        "template": "Show all customers",
+        "count": 1
+      },
+      {
+        "template": "Compare the payment difference of the last {{N}} {{status_1}} orders and {{status_2}} orders",
+        "count": 1
+      },
+      {
+        "template": "Mark all {{brand}} shirts on sale",
+        "count": 1
+      },
+      {
+        "template": "Add a new {{option}} option {{value}} to the {{base_setting}} of {{product}}",
+        "count": 1
+      },
+      {
+        "template": "Add a new {{option}} {{value}} to {{base_setting}} of {{product}}",
+        "count": 1
+      },
+      {
+        "template": "Add new {{option}} {{value}} to {{base_setting}} of {{product}}",
+        "count": 1
+      },
+      {
+        "template": "Create an {{type}} report from {{start_date}} to {{end_date}}",
+        "count": 1
+      },
+      {
+        "template": "{{quantity}} {{product}} arrived, update the stock",
+        "count": 1
+      },
+      {
+        "template": "We've received {{quantity}} {{product}}, please update the inventory.",
+        "count": 1
+      },
+      {
+        "template": "We've received {{quantity}}, update the inventory.",
+        "count": 1
+      },
+      {
+        "template": "Approve the positive reviews to display in our store.",
+        "count": 1
+      }
+    ],
+    "map": [
+      {
+        "template": "Check if the {{place}} in pittsburgh can be reached in one hour by car from {{location}}",
+        "count": 5
+      },
+      {
+        "template": "How long does it take to walk from {{start}} to {{end}}?",
+        "count": 5
+      },
+      {
+        "template": "Tell me the closest {{place1}}(s) to {{place2}}",
+        "count": 5
+      },
+      {
+        "template": "From my stay at {{hotel}}, what's the estimated driving time to reach {{place}}?",
+        "count": 5
+      },
+      {
+        "template": "Which US states border {{state}}?",
+        "count": 5
+      },
+      {
+        "template": "What is the minimum travel time by car from {{location1}} to {{location2}}?",
+        "count": 5
+      },
+      {
+        "template": "Tell me the coordinates of {{location}} in DD format",
+        "count": 5
+      },
+      {
+        "template": "Measure distance between {{location/address_1}} and {{location/address_2}} by walking",
+        "count": 5
+      },
+      {
+        "template": "Pull up the description page of {{location}} on Map",
+        "count": 5
+      },
+      {
+        "template": "Find the {{space}} around {{location}}",
+        "count": 5
+      },
+      {
+        "template": "Find the walkway to the closest {{store}} from {{location}}.",
+        "count": 5
+      },
+      {
+        "template": "Tell me the full address of all {{airport_type}} that are within a driving distance of {{radius}} to {{start}}",
+        "count": 4
+      },
+      {
+        "template": "Compare the time for walking and driving route from {{start}} to {{end}}",
+        "count": 4
+      },
+      {
+        "template": "I will arrive {{place}} soon. Provide the name of a {{target1}} in the vicinity, if available. Then, tell me the {{information}} to {{target2}} from the hotel.",
+        "count": 4
+      },
+      {
+        "template": "What is the zip code of {{place}}?",
+        "count": 4
+      },
+      {
+        "template": "What is the duration required to first walk from {{place_A}} to {{place_B}}, and then drive to {{place_C}}?",
+        "count": 4
+      },
+      {
+        "template": "Where is the nearest {{places}} to {{start}}, and what is the walking distance to it?",
+        "count": 4
+      },
+      {
+        "template": "What is the estimated driving time between {{city1}} and {{city2}}?",
+        "count": 4
+      },
+      {
+        "template": "What is the {{information}} of {{location}}",
+        "count": 4
+      },
+      {
+        "template": "Given the following locations, {{place_list}}, what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.",
+        "count": 3
+      },
+      {
+        "template": "Show me the walking distance from nearby hotels to {{location}} that take at most {{n}} minutes?",
+        "count": 3
+      },
+      {
+        "template": "I am at CMU Pittsburgh, how long it takes to drive to the nearest {{location}}",
+        "count": 3
+      },
+      {
+        "template": "Where is the nearest {{location}} from {{location2}} {{condition}}",
+        "count": 2
+      },
+      {
+        "template": "Show me the path and travel time from {{city1}} to {{city2}}.",
+        "count": 2
+      },
+      {
+        "template": "Show me the route and driving time from {{city1}} to {{city2}}",
+        "count": 2
+      },
+      {
+        "template": "Get directions from {{location/address_1}} to {{location/address_2}} using {{transportation}} options.",
+        "count": 2
+      },
+      {
+        "template": "Compare the difference in time for walking and driving route from {{start}} to {{end}}",
+        "count": 1
+      },
+      {
+        "template": "Tell me the distance to drive from Carnegie Mellon University to the top computer science school in massachusetts",
+        "count": 1
+      },
+      {
+        "template": "I am at CMU Pittsburgh, how long it takes to the nearest {{location}} with different transportation methods?",
+        "count": 1
+      },
+      {
+        "template": "Who is the {{information}} of {{location}}",
+        "count": 1
+      },
+      {
+        "template": "How much time does it take from Pittsburgh to Philadelphia by car?",
+        "count": 1
+      },
+      {
+        "template": "Show the route from SCS CMU in Pittsburgh to the location where the Declaration of Independence and Constitution were signed",
+        "count": 1
+      },
+      {
+        "template": "I am arriving at Carnegie Mellon University. Find the nearby US Citizenship and Immigration Services and the walking distance to the nearest Social Security Administration from US Citizenship and Immigration Services",
+        "count": 1
+      },
+      {
+        "template": "I am arriving at Pittsburgh Airport. Show me the name of a Hyatt hotel if there is any nearby. Tell me the names of supermarkets that are within 15mins driving from the hotel",
+        "count": 1
+      }
+    ],
+    "shopping": [
+      {
+        "template": "List out reviewers, if exist, who mention about {{description}}",
+        "count": 6
+      },
+      {
+        "template": "Today is 6/12/2023. Tell me how many fulfilled orders I have {{period}}, and the total amount of money I spent.",
+        "count": 5
+      },
+      {
+        "template": "How much I spent on {{category}} shopping during {{time}}",
+        "count": 5
+      },
+      {
+        "template": "What is the {{option}} configuration of the {{product}} I bought {{time}}",
+        "count": 5
+      },
+      {
+        "template": "I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all {{num}} cards",
+        "count": 5
+      },
+      {
+        "template": "What are the main criticisms of this product? Please extract the relevant sentences.",
+        "count": 5
+      },
+      {
+        "template": "Tell me the total cost of my latest {{status}} order?",
+        "count": 5
+      },
+      {
+        "template": "What is the price range for products from {{brand}}?",
+        "count": 5
+      },
+      {
+        "template": "Get the order number of my most recent {{status}} order ",
+        "count": 5
+      },
+      {
+        "template": "I am doing a market survey for one stop market, show me the most expensive product from {{product_category}} category",
+        "count": 5
+      },
+      {
+        "template": "I want to browse the products in the {{category}} category",
+        "count": 5
+      },
+      {
+        "template": "Show me products under ${{price}} in \"{{product_category}}\" category",
+        "count": 5
+      },
+      {
+        "template": "Search for \"{{keyword}}\"",
+        "count": 5
+      },
+      {
+        "template": "Show the most recent {{status}} order",
+        "count": 5
+      },
+      {
+        "template": "Show me the \"{{product}}\" listings by {{sorting_order}}.",
+        "count": 5
+      },
+      {
+        "template": "Tell me when I last ordered my {{description}}?",
+        "count": 5
+      },
+      {
+        "template": "List products from {{product_category}} category by {{order}} price",
+        "count": 5
+      },
+      {
+        "template": "Show me the {{info}} for order number {{order_number}}.",
+        "count": 5
+      },
+      {
+        "template": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+        "count": 5
+      },
+      {
+        "template": "I previously ordered some {{product}} {{time}} and later cancelled. Can you reorder it for me?",
+        "count": 5
+      },
+      {
+        "template": "Add {{product}} to my wish list",
+        "count": 5
+      },
+      {
+        "template": "Buy the highest rated product from the {{product_category}} category within a budget {{dollar_value}}.",
+        "count": 5
+      },
+      {
+        "template": "Add a {{product}} to my wish list.",
+        "count": 5
+      },
+      {
+        "template": "Add this product to my wishlist",
+        "count": 5
+      },
+      {
+        "template": "Draft a refund message via their \"contact us\" form for the {{product}} I bought {{time}}. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don't submit yet",
+        "count": 5
+      },
+      {
+        "template": "I recently moved, my address is {{address}}, update my information on OneStopShopping accordingly",
+        "count": 5
+      },
+      {
+        "template": "Rate my recent purchase of {{product}} with {{num_star}} stars, using my nickname {{nickname}}?",
+        "count": 5
+      },
+      {
+        "template": "Fill the \"contact us\" form in the site for a refund on the {{product}} I bought, stating that it broke after just three days of use. Also, ensure to include the order number #{{order_id}} and the product SKU. Don't submit yet, I will check.",
+        "count": 5
+      },
+      {
+        "template": "Gather the titles of {{product}} reviews with {{rating}} rating from OneStopShop, and post them in the games subreddit under the title \"real user feedback on {{product}}\"",
+        "count": 5
+      },
+      {
+        "template": "Draft an email to the shop owner via their contact us function for a coupon as {{reason}}",
+        "count": 5
+      },
+      {
+        "template": "Change the delivery address for my most recent order to {{address}}.",
+        "count": 5
+      },
+      {
+        "template": "How much I spend {{time}} on shopping at One Stop Market?",
+        "count": 4
+      },
+      {
+        "template": "What is the price range of {{product}} in the One Stop Market?",
+        "count": 3
+      },
+      {
+        "template": "Show the least expensive {{product}} with a minimum storage capacity of {{min_storage}}.",
+        "count": 3
+      },
+      {
+        "template": "How much refund I should expect from my order canlled in {{time}}, including shipping fee",
+        "count": 3
+      },
+      {
+        "template": "Who gave {{stars}} for phone cases from EYZUTAK",
+        "count": 2
+      },
+      {
+        "template": "Buy the best rating product from \"{{category}}\" category with at least 5 reviews and the product is least expensive",
+        "count": 2
+      },
+      {
+        "template": "Tell me the status of my latest order and when will it arrive",
+        "count": 1
+      },
+      {
+        "template": "What is the date when I made my first purchase on this site?",
+        "count": 1
+      },
+      {
+        "template": "I have jaw bruxism problem, show me something that could alleviate the problem.",
+        "count": 1
+      },
+      {
+        "template": "What do customers say about {{product_type}} from {{manufature}}",
+        "count": 1
+      },
+      {
+        "template": "Provide me with the complete names of Bluetooth headphones from Sony, and also share the price range for the available models",
+        "count": 1
+      },
+      {
+        "template": "Provide me with the full names of chargers from Anker, and also share the price range for the available models",
+        "count": 1
+      },
+      {
+        "template": "Please provide me with the complete product names of Oral B brush heads designed for children, along with their corresponding price range per brush",
+        "count": 1
+      },
+      {
+        "template": "List the full product names of slide slippers from Nike and tell me the price range of the available products",
+        "count": 1
+      },
+      {
+        "template": "Look up the most recent models of XBox controllers released between 2020-2021?",
+        "count": 1
+      },
+      {
+        "template": "Which number to call for the customer service?",
+        "count": 1
+      },
+      {
+        "template": "How much refund I should expect from my order canlled in {{time}} if I cannot get the shipping fee refunded?",
+        "count": 1
+      },
+      {
+        "template": "How much refund I should expect from my order canlled in {{time}}? I only kept the AC-DC Adapter and the shop told me that I cannot get the shipping fee back",
+        "count": 1
+      },
+      {
+        "template": "How much did I spend on shopping at One Stop Market {{time}}? They gave me a 20% discount on the total amount for orders exceeding $200 in cash",
+        "count": 1
+      },
+      {
+        "template": "find discounted items.",
+        "count": 1
+      },
+      {
+        "template": "Summarize customer reviews for {{product}}.",
+        "count": 1
+      },
+      {
+        "template": "List the customer names who complain about the quality of EYZUTAK phone cases",
+        "count": 1
+      },
+      {
+        "template": "List the customer names who thinks EYZUTAK phone cases are of good looking",
+        "count": 1
+      },
+      {
+        "template": "What is the rating of {{product}}",
+        "count": 1
+      },
+      {
+        "template": "Subscribe to the newsletter of OneStopMarket",
+        "count": 1
+      }
+    ],
+    "reddit": [
+      {
+        "template": "Like all submissions created by {{user}} in subreddit {{subreddit}}",
+        "count": 6
+      },
+      {
+        "template": "DisLike all submissions created by {{user}} in subreddit {{subreddit}}",
+        "count": 6
+      },
+      {
+        "template": "Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the {{forum}} forum.",
+        "count": 5
+      },
+      {
+        "template": "Change my reddit bio to \"{{content}}\"",
+        "count": 5
+      },
+      {
+        "template": "Upvote the newest post in {{subreddit}} subreddit",
+        "count": 5
+      },
+      {
+        "template": "Create a new forum named {{name}}, with a description of {{description}}, and include {{sidebar_list}} in the sidebar?",
+        "count": 5
+      },
+      {
+        "template": "Open the thread of a trending post on the forum \"{{subreddit}}\" and subscribe.",
+        "count": 5
+      },
+      {
+        "template": "Post my question, \"{{question}}\", in a subreddit where I'm likely to get an answer",
+        "count": 5
+      },
+      {
+        "template": "Find a subreddit focused on topics related to {{topic}}, and post my question, \"{{question}}\" there",
+        "count": 5
+      },
+      {
+        "template": "Post a review of my recent reading \"{{book}}\" in the r/books with my comment \"{{content}}\".",
+        "count": 5
+      },
+      {
+        "template": "Re-post the image of {{content}} in this page to {{subreddit}} subreddit and note \"from /f/pics\"",
+        "count": 5
+      },
+      {
+        "template": "Ask for advice about {{issue}} in a subreddit for relations",
+        "count": 5
+      },
+      {
+        "template": "Create a discussion post about \"{{topic}}\" in a relevant subreddit and ask users for their opinions with the simple prompt, \"your opinion\"",
+        "count": 5
+      },
+      {
+        "template": "Ask for product recommendations for {{category}} within a budget of {{price}} in {{subreddit}}",
+        "count": 5
+      },
+      {
+        "template": "Post in the most appropriate subreddit and ask for recommendations for {{category}} products within a budget of {{price}}",
+        "count": 5
+      },
+      {
+        "template": "Post a notice on a virtual meetup for {{interest}} enthusiasts on {{date}} in the {{subreddit}} subreddit",
+        "count": 5
+      },
+      {
+        "template": "Promote {{repo}} to subreddit {{subreddit}} with the description from the repo itself.",
+        "count": 5
+      },
+      {
+        "template": "Thumbs down the top {{k}} post ever in {{subreddit}}.",
+        "count": 5
+      },
+      {
+        "template": "Edit my post on {{post}} by adding a line to the body that says \"{{content}}\"",
+        "count": 5
+      },
+      {
+        "template": "Among the top {{number}} post in \"{{subreddit}}\" forum, {{description}}",
+        "count": 4
+      },
+      {
+        "template": "Reply to {{position_description}} with my comment \"{{content_description}}\"",
+        "count": 3
+      },
+      {
+        "template": "Find a GitLab repository related to {{topic}} and make a Reddit post linking to it in a relevant subreddit",
+        "count": 3
+      },
+      {
+        "template": "Reply to {{position_description}} in this post with \"{{content_description}}\"",
+        "count": 2
+      },
+      {
+        "template": "Post in {{subreddit}} subreddit about what could machine learning help the correpong field.",
+        "count": 1
+      },
+      {
+        "template": "Post in {{subreddit}} subreddit about what could midjourney help the correpong field.",
+        "count": 1
+      },
+      {
+        "template": "Post in {{subreddit}} forum about what could open-source LLMs help the correpong field.",
+        "count": 1
+      },
+      {
+        "template": "Post in {{subreddit}} forum about what could large language models help the correpong field.",
+        "count": 1
+      },
+      {
+        "template": "Post in {{subreddit}} subreddit about what could diffusion model help the correpong field.",
+        "count": 1
+      }
+    ],
+    "gitlab": [
+      {
+        "template": "Fork {{repo}}.",
+        "count": 6
+      },
+      {
+        "template": "Create a repo named {{name}} with {{topics}} in a README file",
+        "count": 6
+      },
+      {
+        "template": "Display the list of issues in the {{repo}} repository that have labels related to {{label}}",
+        "count": 5
+      },
+      {
+        "template": "How many commits did {{user}} make to {{repo}} on {{date}}?",
+        "count": 5
+      },
+      {
+        "template": "Tell me the full names of the repositories where I made contributions and they got {{description}} stars?",
+        "count": 5
+      },
+      {
+        "template": "Open my latest updated issue that has keyword \"{{keyword}}\" in its title to check if it is closed",
+        "count": 5
+      },
+      {
+        "template": "Open my latest created issue that has {{keyword}} in its title to check if it is closed",
+        "count": 5
+      },
+      {
+        "template": "Show me the command to clone {{repo}} with SSH.",
+        "count": 5
+      },
+      {
+        "template": "How many commits did {{user}} make {{period}}?",
+        "count": 5
+      },
+      {
+        "template": "Tell me who has made the most contributions, in terms of number of commits, to the {{repo}} project",
+        "count": 5
+      },
+      {
+        "template": "List the {{attribute}} of the top 3 contributors to {{repo}} repo, ranked by the number of commits?",
+        "count": 5
+      },
+      {
+        "template": "List all opened issues {{description}}",
+        "count": 5
+      },
+      {
+        "template": "Post \"{{content}}\" for the merge request related to {{mr}} in {{repo}} project",
+        "count": 5
+      },
+      {
+        "template": "Set my gitlab status as {{status}}.",
+        "count": 5
+      },
+      {
+        "template": "Update the project site's title to \"{{title}}\"",
+        "count": 5
+      },
+      {
+        "template": "set the homepage URL on my GitLab profile to {{url}}",
+        "count": 5
+      },
+      {
+        "template": "Set up a new, empty repository with the name {{project_name}}?",
+        "count": 5
+      },
+      {
+        "template": "{{name}} wants to check my dotfile configurations. Please invite him to the repo as a guest.",
+        "count": 5
+      },
+      {
+        "template": "Star the top {{number}} most stared repos in Gitlab",
+        "count": 5
+      },
+      {
+        "template": "Follow {{account_list}} on Gitlab",
+        "count": 5
+      },
+      {
+        "template": "create a repository named {{name}} that includes a README file with the links to the most active {{num}} DIY ideas on DIY subreddit?",
+        "count": 5
+      },
+      {
+        "template": "Create a milestone for the upcoming {{event}} starting on {{start_date}} and ending on {{end_date}}",
+        "count": 5
+      },
+      {
+        "template": "Create an issue in {{repo}} repo with title \"{{issue}}\". Assign the issue to {{account}}. Set due date to be {{due}}",
+        "count": 5
+      },
+      {
+        "template": "Open an issue to {{issue}} in {{repo}}.",
+        "count": 5
+      },
+      {
+        "template": "Start a private project {{project_name}} with {{template}} template and add {{account_list}} as members",
+        "count": 5
+      },
+      {
+        "template": "Create a private {{template}} repository called \"{{project_name}}\" using the right template to speed up development.",
+        "count": 5
+      },
+      {
+        "template": "Tell me the {{attribute}} of the contributor who has the most commits to branch {{branch_name}}",
+        "count": 5
+      },
+      {
+        "template": "create a new group \"{{name}}\" with members {{members}}",
+        "count": 5
+      },
+      {
+        "template": "Create a folder named {{directory}} in {{gitlab_repo}} repo. Within it, create a file named urls.txt that contains the URLs of the 5 most recent posts from the {{subreddit}}?",
+        "count": 4
+      },
+      {
+        "template": "Invite {{collaborator_account_list}} as collaborator to {{repo}} repo",
+        "count": 4
+      },
+      {
+        "template": "Submit a merge request for {{source_branch}} branch to be merged into {{target_branch}} branch, assign {{reviewer}} as the reviewer",
+        "count": 4
+      },
+      {
+        "template": "Make the LICENSE of {{repo}} to MIT license.",
+        "count": 3
+      },
+      {
+        "template": "Go to the merge request on {{topic}} I have to review, find if the author of the merge request responded at the end, and reply \"Thank you\" if he did. Otherwise remind him with a simple @.",
+        "count": 3
+      },
+      {
+        "template": "Assign the issue regarding {{issue}} in {{repo}} to {{account}}.",
+        "count": 3
+      },
+      {
+        "template": "Add the following users to repo {{repo}} as {{role}}: {{user_list}}",
+        "count": 3
+      },
+      {
+        "template": "Check out the most recent open issues",
+        "count": 2
+      },
+      {
+        "template": "How many commits did {{user}} make on {{date}}?",
+        "count": 2
+      },
+      {
+        "template": "Who else have access to my repo {{repo}}, show me their usernames",
+        "count": 2
+      },
+      {
+        "template": "Add the following users to my {{repo}} as {{role}}: {{user_list}}",
+        "count": 2
+      },
+      {
+        "template": "Open a new issue to discuss the implementation of {{feature}}",
+        "count": 2
+      },
+      {
+        "template": "Check out my todos",
+        "count": 1
+      },
+      {
+        "template": "Checkout merge requests assigned to me",
+        "count": 1
+      },
+      {
+        "template": "How many commits did {{user}} make on {{date}} in total?",
+        "count": 1
+      },
+      {
+        "template": "See all public projects",
+        "count": 1
+      },
+      {
+        "template": "Get me my RSS feed token",
+        "count": 1
+      },
+      {
+        "template": "Checkout merge requests requiring my review",
+        "count": 1
+      },
+      {
+        "template": "Make the LICENSE of {{repo}} to Apache License",
+        "count": 1
+      },
+      {
+        "template": "Make the LICENSE of {{repo}} to one that mandates all copies and derivative works to be under the same license",
+        "count": 1
+      },
+      {
+        "template": "Invite {{collaborator_account_list}} as collaborator to {{repo}}",
+        "count": 1
+      },
+      {
+        "template": "Submit a request to merge {{source_branch}} branch into {{target_branch}} branch, assign {{reviewer}} as the reviewer",
+        "count": 1
+      },
+      {
+        "template": "Create a new {{scope}} project \"planner\" and add {{account_list}} as members",
+        "count": 1
+      },
+      {
+        "template": "Create a new {{scope}} project \"web_arena\" and add {{account_list}} as members",
+        "count": 1
+      },
+      {
+        "template": "Create a new {{scope}} project \"AutoAGI\" and add {{account_list}} as members",
+        "count": 1
+      },
+      {
+        "template": "Create a new {{scope}} project \"awesome-llms\" and add {{account_list}} as members",
+        "count": 1
+      },
+      {
+        "template": "Create a new {{scope}} project \"llm_bulk_inference\" and add {{account_list}} as members",
+        "count": 1
+      },
+      {
+        "template": "Create an issue {{issue}} in {{repo}}.",
+        "count": 1
+      },
+      {
+        "template": "Make a folder named {{directory}} on the {{gitlab_repo}} repo and include a file called urls.txt that consists of the links to the 5 most recent posts from {{subreddit}}.",
+        "count": 1
+      },
+      {
+        "template": "Assign the issue regarding {{issue}} to {{account}}.",
+        "count": 1
+      },
+      {
+        "template": "Submit a merge request for {{source_branch}} to be merged into {{target_branch}} branch, assign {{reviewer}} as the reviewer",
+        "count": 1
+      },
+      {
+        "template": "Assign the issue regarding {{issue}} in {{repo}} repo to {{account}}.",
+        "count": 1
+      }
+    ],
+    "wikipedia": [
+      {
+        "template": "Find the page of {{description}} on the map.",
+        "count": 7
+      },
+      {
+        "template": "Show me the way from {{location}} to the home stadium of {{sport_team}} {{time}}",
+        "count": 5
+      },
+      {
+        "template": "What's the closest national park to {{city}}? How far is it to drive there?",
+        "count": 1
+      },
+      {
+        "template": "What's the closest national park to {{city}}?",
+        "count": 1
+      },
+      {
+        "template": "What's the closest national park to {{city}}? How long it takes to drive there?",
+        "count": 1
+      },
+      {
+        "template": "What's the closest national park to {{city}}? How long does it take to bike there?",
+        "count": 1
+      }
+    ]
+  }
+}
