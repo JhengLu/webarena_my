@@ -1,0 +1,7 @@
+---
+BUNDLE_BUILD__GPGME: "--use-system-libraries"
+BUNDLE_BUILD__NOKOGIRI: "--use-system-libraries --with-xml2-include=/opt/gitlab/embedded/include/libxml2 --with-xslt-include=/opt/gitlab/embedded/include/libxslt"
+BUNDLE_FROZEN: "true"
+BUNDLE_RETRY: "5"
+BUNDLE_JOBS: "33"
+BUNDLE_WITHOUT: "development:test"
